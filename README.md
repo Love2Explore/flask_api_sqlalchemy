@@ -1,45 +1,45 @@
 # Flask API Development
-##Create Python Virtual Enviournment
+## Create Python Virtual Enviournment
 ```
 virtualenv venv <--python=python3.5>
---Activate in windows
+```
+
+## Activate in windows
+```
 cd ./venv/Scripts/activate.bat
 ```
 
 
-##All enviourment list
+## All enviourment list
 ```
 conda info --envs
 ```
 
-##all librabry installed in Enviournment
+## all librabry installed in Enviournment
 ```
 pip freeze
 ```
 
-##Activate Env
+## Activate Env
 ```
 activate <Env_name>
 ```
 
-##Deactivate Env
+## Deactivate Env
 ```
 deactivate <Env_name>
 ```
 
 
+# Git Command
 
-
-
-#Git Command
-
-##SSH Key Generation
+## SSH Key Generation
 ```
 ssh-keygen
 ```
 
 
-#Heroku Command
+# Heroku Command
 ```
 heroku login
 heroku logs --app=flask-item-api
