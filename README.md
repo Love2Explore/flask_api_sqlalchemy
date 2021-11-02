@@ -40,6 +40,7 @@ ssh-keygen
 
 
 # Heroku Command
+Add Procfile ,requirements.txt ,runtime.txt ,uwsgi.ini Files to Deploy in Heroku
 ```
 heroku login
 heroku logs --app=flask-item-api
